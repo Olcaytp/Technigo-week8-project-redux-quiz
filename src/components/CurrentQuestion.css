@@ -1,0 +1,70 @@
+.answer-feedback {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .answer-feedback p {
+    margin: 0;
+  }
+  
+  .correct-answer {
+    color: green;
+  }
+  
+  .incorrect-answer {
+    color: red;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  li.correct {
+    background-color: #a7ebaf; /* Doğru cevap rengi */
+  }
+  
+  li.incorrect {
+    background-color: #ebacac; /* Yanlış cevap rengi */
+  }
+  
+  .next-button.disabled {
+    background-color: #ddd; /* Gri renk */
+    color: #666; /* Gri renk */
+    cursor: not-allowed; /* İmleci gösterme */
+  }
+
+  .see-results-button.disabled {
+    background-color: #ddd; /* Gri renk */
+    color: #666; /* Gri renk */
+    cursor: not-allowed; /* İmleci gösterme */
+  }
+
+.results-info {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+  .results-text {
+    margin: 5px 0;
+  }
+
+  .previous-button {
+    margin-right: 4px;
+  }
+  

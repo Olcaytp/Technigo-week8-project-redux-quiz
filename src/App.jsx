@@ -5,6 +5,8 @@ import { quiz } from './reducers/quiz';
 
 import { CurrentQuestion } from './components/CurrentQuestion';
 
+import './App.css'; // Yeni eklenen satır
+
 const reducer = combineReducers({
   quiz: quiz.reducer
 });
@@ -14,7 +16,9 @@ const store = configureStore({ reducer });
 export const App = () => {
   return (
     <Provider store={store}>
-      <CurrentQuestion />
+      <div className="app-container"> {/* Yeni eklenen satır */}
+        <CurrentQuestion />
+      </div>
     </Provider>
   );
 }
