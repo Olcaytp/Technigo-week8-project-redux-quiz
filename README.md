@@ -1,14 +1,10 @@
-<h1 align="center">
-  <a href="">
-    <img src="/src/assets/redux-quiz.svg" alt="Project Banner Image">
-  </a>
-</h1>
-
 # Redux Quiz
 
-Replace this readme with your own information about your project.
+![Application Screenshot 1](src/assets/1.png)
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+![Application Screenshot 2](src/assets/2.png)
+
+![Application Screenshot 3](src/assets/3.png)
 
 ## Getting Started with the Project
 
