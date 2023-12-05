@@ -4,8 +4,6 @@
 
 ![Application Screenshot 2](src/assets/2.png)
 
-![Application Screenshot 3](src/assets/3.png)
-
 ## Getting Started with the Project
 
 ### Dependency Installation & Startup Development Server
